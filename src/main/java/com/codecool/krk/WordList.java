@@ -23,10 +23,6 @@ public class WordList {
             words.add(sc.nextLine());
     }
 
-    public List<String> getWords() {
-        return this.words;
-    }
-
     public boolean lookup(String string) {
         return words.contains(string);
     }
